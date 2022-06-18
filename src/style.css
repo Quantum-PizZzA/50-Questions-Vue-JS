@@ -1,0 +1,41 @@
+:root {
+  --white: #f2f2f2;
+  --theme: #890d39;
+  --gray: #525255;
+  --gray2: #232626;
+  --black: #2b2e2f;
+}
+
+body,
+.select {
+  background: var(--black);
+  border-color: var(--black);
+}
+
+html,
+input,
+.btn-floating,
+.select {
+  color: var(--white);
+}
+
+hr {
+  color: var(--gray); /* Цвет линии для остальных браузеров */
+  background-color: var(--gray); /* Цвет линии для браузера Firefox и Opera */
+  border: none; /* Убираем границу для браузера Firefox */
+  height: 1px; /* Толщина линии */
+}
+
+.btn-large,
+.btn {
+  background-color: var(--theme);
+}
+
+html {
+  color-scheme: var(--white) !important;
+}
+
+/*Отладка*/
+/*div {*/
+/*  border: 1px solid #00c939 !important;*/
+/*}*/
