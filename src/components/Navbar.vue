@@ -65,8 +65,9 @@ export default {
 
 <style scoped>
 img {
-  width: 77px;
-  height: 62px;
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
 }
 nav {
   padding: 0 3rem;
